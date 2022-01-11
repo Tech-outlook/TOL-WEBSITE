@@ -262,4 +262,9 @@ body {
   .navbar {
     padding-left: 10px !important;
   }
+  .nav-link{
+    text-align: center;
+    width: 100%;
+    margin: 5px 0px;
+  }
 }
