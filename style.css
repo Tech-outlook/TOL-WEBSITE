@@ -41,6 +41,28 @@ body {
 .navbar-toggler {
   outline: none !important;
 }
+.nav-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-social-icons i {
+  font-size: 25px;
+  margin: 0px 10px;
+}
+
+.nav-social-icons i:hover:nth-child(1) {
+  color: #8a3ab9;
+  cursor: pointer;
+}
+.nav-social-icons i:hover:nth-child(2) {
+  color: red;
+  cursor: pointer;
+}
+.nav-social-icons i:hover:nth-child(3) {
+  color: blue;
+  cursor: pointer;
+}
 
 .bg-container {
   display: flex;
@@ -262,9 +284,12 @@ body {
   .navbar {
     padding-left: 10px !important;
   }
-  .nav-link{
+  .nav-link {
     text-align: center;
     width: 100%;
     margin: 5px 0px;
+  }
+  .nav-social-icons i {
+    margin: 0px 20px;
   }
 }
