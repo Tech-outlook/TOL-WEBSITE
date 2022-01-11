@@ -24,6 +24,20 @@ body {
   padding: 0px 10px;
   border-radius: 5px;
 }
+
+.nav-link {
+  border: 1px solid transparent;
+  margin: 0px 5px;
+  font-size: 20px;
+  color: black !important;
+}
+.nav-link:hover {
+  background: white;
+  color: green !important;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
 .navbar-toggler {
   outline: none !important;
 }
@@ -74,13 +88,18 @@ body {
   background: gold;
   color: black;
   outline: none;
-  border-width: 0px;
+  border-width: 1px;
   padding: 10px;
   margin-top: 10px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
   outline: none;
+}
+.btn:hover {
+  color: green;
+  background: white;
+  border: 1px solid green;
 }
 
 .skills {
