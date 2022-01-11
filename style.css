@@ -63,11 +63,12 @@ body {
   color: blue;
   cursor: pointer;
 }
-.nav-social-icons .twitter{
+.nav-social-icons .twitter {
   color: blue;
   cursor: pointer;
 }
 
+/*-----Profile card---------*/
 .bg-container {
   display: flex;
   justify-content: flex-end;
