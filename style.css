@@ -3,18 +3,130 @@
 * {
   padding: 0px;
   margin: 0px;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Bree serif";
+  cursor: default;
+}
+.navbar {
+  padding-left: 40px !important;
+  background-color: lightgoldenrodyellow !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  background: black;
+  color: gold !important;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("./Assets/main-bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.profile-card {
+  background: white;
+  height: 450px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 20px;
+}
+
+.profile-pic {
+  height: 140px;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+
+.profile-name {
+  font-family: "Roboto";
+  margin: 5px 0px;
+  font-weight: bold;
+}
+
+.profile-country,
+.profile-about {
+  font-weight: bold;
+  font-family: "Roboto";
+  margin: 5px 0px;
+}
+
+.btn {
+  background: gold;
+  color: black;
+  outline: none;
+  border-width: 0px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+.skills {
+  margin-top: 5px;
+  padding: 10px 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background: gold;
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.skills p {
+  margin: 5px 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.skills div {
   display: flex;
   flex-wrap: wrap;
 }
-nav{
-  width: 100%;
-  margin-bottom: 10px;
+
+.skills div p1 {
+  font-weight: bold;
+  border: solid 1px white;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 3px;
 }
 
+/*----------*/
+
+.Portfolio {
+  min-height: 90vh;
+  padding-top: 10vh;
+  background: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .cards {
   border: 2px solid goldenrod;
   margin: 10px;
@@ -114,7 +226,7 @@ nav{
   color: white;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 858px) {
   .cards {
     width: 530px;
     height: 300px;
@@ -124,5 +236,11 @@ nav{
   }
   .cards button {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 858px) {
+  .navbar {
+    padding-left: 10px !important;
   }
 }
