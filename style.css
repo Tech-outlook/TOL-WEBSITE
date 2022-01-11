@@ -46,20 +46,24 @@ body {
   justify-content: center;
   align-items: center;
 }
-.nav-social-icons i {
+.nav-social-icons a i {
   font-size: 25px;
   margin: 0px 10px;
 }
 
-.nav-social-icons i:hover:nth-child(1) {
+.nav-social-icons .instagram {
   color: #8a3ab9;
   cursor: pointer;
 }
-.nav-social-icons i:hover:nth-child(2) {
+.nav-social-icons .youtube {
   color: red;
   cursor: pointer;
 }
-.nav-social-icons i:hover:nth-child(3) {
+.nav-social-icons .facebook {
+  color: blue;
+  cursor: pointer;
+}
+.nav-social-icons .twitter{
   color: blue;
   cursor: pointer;
 }
